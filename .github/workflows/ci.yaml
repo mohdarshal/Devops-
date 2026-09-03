@@ -1,0 +1,12 @@
+name: CI
+on:
+   push:
+      branches: ["main"]
+
+jobs:
+    basic:
+      runs-on: wsl-linux
+      steps:
+         - name: print a normal statement
+           run: echo "don't loose hope"
+           
