@@ -5,7 +5,7 @@ on:
 
 jobs:
     basic:
-      runs-on: wsl-linux
+      runs-on: ubuntu-latest
       steps:
          - name: print a normal statement
            run: echo "don't loose hope"
